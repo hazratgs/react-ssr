@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard"],
+  "plugins": [
+    "standard",
+    "promise",
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "legacyDecorators": true
+    }
+  },
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "strict": 0,
+    "generator-star-spacing": [
+      "error",
+      {
+        "before": false,
+        "after": true
+      }
+    ]
+  }
+}

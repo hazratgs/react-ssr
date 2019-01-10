@@ -1,0 +1,30 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",    
+    "react-hot-loader/babel",
+    "transform-async-to-generator",
+    "transform-class-properties",
+    "babel-plugin-styled-components"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env"],
+        "react",
+        "stage-0"
+      ],
+      "plugins": [
+        "transform-decorators-legacy",    
+        "react-hot-loader/babel",
+        "transform-async-to-generator",
+        "transform-class-properties",
+        "babel-plugin-styled-components"
+      ]
+    }
+  }
+}
